@@ -1,0 +1,66 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 30px;
+}
+
+main {
+    display: flex;
+    padding: 50px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 500;
+    padding: 50px;
+    padding-left: 50px;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 200;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.botao {
+    padding-left: 50px;
+    padding-top: 35px;
+}
+
+.botao-link {
+    display: inline-block;
+    padding: 10px 60px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    max-width: 200px;
+}
+
+footer {
+    text-align: right;
+}
+
+a {
+    padding: 20px;
+}
+
+.insta {
+    padding-right: 80px;
+}
+

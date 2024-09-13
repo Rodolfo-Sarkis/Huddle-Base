@@ -1,0 +1,49 @@
+@media (max-width:1000px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    /* max-width: 100%; */
+}
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 80px;
+    }
+
+}
